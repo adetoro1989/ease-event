@@ -1,0 +1,85 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 40px;
+  background: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+
+header {
+  
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #4caf50;
+    color: white;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header h2 {
+  margin-top: 10px;
+  color: #555;
+  font-weight: normal;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #4caf50;
+}
+footer {
+  background-color: #4caf50;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: -20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

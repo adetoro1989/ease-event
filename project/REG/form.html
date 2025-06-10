@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/form.css"/>
+    <title>REGISTRATION</title>
+  </head>
+  <body>
+    <header id="top">
+      <h1>Welcome to Nigerian TechCon 2025</h1>
+      <p>The Ultimate Technology and Computing Conference</p>
+    </header>
+    <nav>
+        <button class="about_event">
+          <a href="project\index.html">Home</a>
+        </button>
+    </nav>
+    <section id="reg">
+      <h1>Nigerian TechCon Registration</h1>
+      <p>Please fill the form below to express your interest in attending the event.</p>
+      <form action="" method="post">
+        <div class="first_name">
+          <label>First Name</label>
+          <input
+            type="text"
+            placeholder="Enter Your First Name" aria-placeholder="Enter Your Last Name"
+            required
+          />
+        </div>
+        <div class="last_name">
+          <label>Last Name</label>
+          <input
+            type="text"
+            placeholder="Enter Your Last Name"
+            aria-placeholder="Enter Your Last Name"
+            required
+          />
+        </div>
+        <div class="mail">
+            <label>Email</label>
+            <input type="email" placeholder="Enter Your Email" aria-placeholder="Enter Your Email" required>
+        </div>
+        <div class="locate">
+            <label>Location</label>
+            <input type="text" placeholder="Enter Your Location" aria-placeholder="Enter Your Location" required>
+        </div>
+        <div class="Phone">
+            <label>Phone Number</label>
+            <input type="number" placeholder="Enter your Phone Number" aria-placeholder="Enter Your Phone Number" required>
+        </div>
+        <div class="option">
+           <p>Will You Be Able to Attend the Event</p>
+           <label for="yes">Yes</label>
+           <input type="radio" id="yes" name="choice" value="Yes">
+           <label for="no">No</label>
+           <input type="radio" id="no" name="choice" value="No">
+        </div>
+        <div class="sub">
+            <button type="submit" id="sub" value="submit" formmethod="post">Submit</button>
+        </div>
+      </form>
+    </section>
+    <footer>
+      <div>
+        <p>@ Copyright 2025 Nigerian TechCon</p>
+      </div>
+
+      <div class socials></div>
+
+      <a href="#" class="top">Back to Top &#8593;</a>
+    </footer>
+  </body>
+</html>
