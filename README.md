@@ -5,7 +5,7 @@ IP ADDRESS: 13.245.231.101
 ## Introduction
 This repository contains my Second Semester Examination project in Alt School.
 Name: Adetoro Adetunji Olanrewaju
-STUDENT ID: ALT SCHOOL ID: ALT/SOE/024/1852
+STUDENT ID: ALT/SOE/024/1852
 TINUKA2024
 
 # SERVER SETUP:
