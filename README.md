@@ -48,4 +48,4 @@ sudo chmod -R 755 /var/www/html
 I tested my page using the public IP: 13.245.231.101 and it rendered the page ![Landing_page](image-4.png)  ![Next_page](image-5.png) ![Next_web_page](image-6.png)
 
 # DISASTER RECOVERY
-For disaster recovery: in the case of an incidence on the EC2 instance, i created an AMI (Amazon Machine Image) which grabbed the instance state of the server so i can easily deply the server quickly in the event of an incidence. Please see screenshot: ![AMI_WEB_SERVER](image-7.png)
+For disaster recovery: in the case of an incidence on the EC2 instance, i created an AMI (Amazon Machine Image) which grabbed the instance state of the server so i can easily deploy the server quickly in the event of an incidence. Please see screenshot: ![AMI_WEB_SERVER](image-7.png)
