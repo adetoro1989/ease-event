@@ -52,7 +52,7 @@ For disaster recovery: in the case of an incidence on the EC2 instance, i create
 
 As part of Disaster Recovery policy, I hosted my EC2 machines in two different AZs within the african region and they are both running simultaenously. Since we forsee a very large traffic over time, i created an Applicaton Load Balancer (ALB) that will spread the traffic across the two instances as traffics are coming in. ![ Application Load Balancer](image-9.png)
 
-I used a custom FQDN to reach my application: FQDN: http://easeevent-1555272296.af-south-1.elb.amazonaws.com
+I used a custom FQDN to reach my application: FQDN: http://easeevent-1555272296.af-south-1.elb.amazonaws.com ![Using_custom_fqdn](image-12.png)
 
 I created a target group which i added my two ec2 machines and i can do a health check over time [Target-group](image-8.png)
 
