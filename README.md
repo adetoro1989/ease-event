@@ -1,6 +1,6 @@
 <!-- Updated the Readme with everything you already wrote. -->
 # Ease-Event
-IP ADDRESS: 13.245.231.101
+FQDN: http://easeevent-1555272296.af-south-1.elb.amazonaws.com
 
 ## Introduction
 This repository contains my Second Semester Examination project in Alt School.
@@ -49,3 +49,11 @@ I tested my page using the public IP: 13.245.231.101 and it rendered the page ![
 
 # DISASTER RECOVERY
 For disaster recovery: in the case of an incidence on the EC2 instance, i created an AMI (Amazon Machine Image) which grabbed the instance state of the server so i can easily deploy the server quickly in the event of an incidence. Please see screenshot: ![AMI_WEB_SERVER](image-7.png)
+
+As part of Disaster Recovery policy, I hosted my EC2 machines in two different AZs within the african region and they are both running simultaenously. Since we forsee a very large traffic over time, i created an Applicaton Load Balancer (ALB) that will spread the traffic across the two instances as traffics are coming in. ![ Application Load Balancer](image-9.png)
+
+I used a custom FQDN to reach my application: FQDN: http://easeevent-1555272296.af-south-1.elb.amazonaws.com
+
+I created a target group which i added my two ec2 machines and i can do a health check over time !Target-group](image-8.png)
+
+I also ensured that each individual machines cannot be reached over the internet via thier public IPs except for SSH reasons(management) by modifying the security group of the Load balancer and the ec2 machines. I made sure only the ALB can be reached over the internet ![Alb_Sec_group](image-10.png) and the EC2 machines can be reached from the Load balancer security group ![EC@-Sec_grp](image-11.png)
