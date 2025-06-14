@@ -54,6 +54,6 @@ As part of Disaster Recovery policy, I hosted my EC2 machines in two different A
 
 I used a custom FQDN to reach my application: FQDN: http://easeevent-1555272296.af-south-1.elb.amazonaws.com
 
-I created a target group which i added my two ec2 machines and i can do a health check over time !Target-group](image-8.png)
+I created a target group which i added my two ec2 machines and i can do a health check over time [Target-group](image-8.png)
 
 I also ensured that each individual machines cannot be reached over the internet via thier public IPs except for SSH reasons(management) by modifying the security group of the Load balancer and the ec2 machines. I made sure only the ALB can be reached over the internet ![Alb_Sec_group](image-10.png) and the EC2 machines can be reached from the Load balancer security group ![EC2-Sec_grp](image-11.png)
