@@ -1,4 +1,3 @@
-<!-- Updated the Readme with everything you already wrote. -->
 # Ease-Event
 FQDN: http://easeevent-1555272296.af-south-1.elb.amazonaws.com
 
