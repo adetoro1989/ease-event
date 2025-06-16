@@ -1,4 +1,6 @@
 # Ease-Event
+
+www.easeevent.com.ng
 FQDN: http://easeevent-1555272296.af-south-1.elb.amazonaws.com
 
 ## Introduction
