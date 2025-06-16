@@ -35,7 +35,7 @@ I tested with the public IP and it rendered the page as seen: ![Test-LAnding pag
 I removed the index.html file that came by default with apache using the command:
 sudo rm /var/www/html/index.html
 
-Then i cloned tha codebase of my project from git hub to a directory on the server using the commands
+Then i cloned tha codebase of my project from github to a directory on the server using the commands
 git init
 git clone <[remote url](https://github.com/adetoro1989/ease-event.git)>
 
