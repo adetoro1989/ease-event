@@ -2,7 +2,7 @@
 
 www.easeevent.com.ng
 FQDN: http://easeevent-1555272296.af-south-1.elb.amazonaws.com
-
+I created a CNAME on my domain provider which points the ALB DNS to my domain: www.easeevent.com.ng
 ## Introduction
 This repository contains my Second Semester Examination project in Alt School.
 Name: Adetoro Adetunji Olanrewaju
