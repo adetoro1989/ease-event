@@ -18,4 +18,4 @@ jobs:
           script: |
           
             cd /var/www/html
-            git pull origin main
+            git pull https://github.com/adetoro1989/ease-event.git main
