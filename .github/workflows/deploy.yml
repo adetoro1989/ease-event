@@ -19,4 +19,5 @@ jobs:
           
             cd /var/www/html
             git stash --include-untracked
+            git clean -fd
             git pull https://github.com/adetoro1989/ease-event.git main
